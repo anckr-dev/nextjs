@@ -1,5 +1,4 @@
-import { trueTypeOf } from "../../helpers";
-import { findUser, login, register, verifyToken } from "../../lib/users";
+import { findUser, verifyToken } from "../../lib/users";
 
 export default (req, res) => {
   if (req.method !== "GET") {
